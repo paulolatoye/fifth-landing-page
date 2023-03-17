@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    position: relative;
+    width: 1400px;
+    height: 1040px;
+    background: #2F1893;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-brand {
+    width: 106px;
+    height: 32px;
+    left: 2px;
+    top: -6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.page-descr {
+    width: 70%;
+}
+
+.page-descr h3 {
+    position: absolute;
+    height: 47px;
+    left: 155px;
+    top: 170px;
+    border-radius: nullpx;    
+    top: calc(50% - 47px/2 - 326.5px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.page-descr h5 {
+    position: absolute;
+    left: 155px;
+    right: 31.64%;
+    top: 23.94%;
+    bottom: 69.9%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.call-to-actn {
+    width: 30%;
+}
+
+
+.call-to-actn button {
+    position: relative;
+    width: 171px;
+    padding: 28px;
+    height: 51px;
+    left: calc(50% - 111px/2 + 0.5px);
+    top: calc(50% - -220px/2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background: #25DAC5;
+}
+
+.call-to-actn p {
+    position: absolute;
+    height: 26px;
+    right: 200px;
+    top: 270px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+
+.main-img{
+    position: absolute;
+    width: 1080px;
+    height: 546px;
+    left: 149px;
+    top: 390px;
+}
+
+.uTube {
+    position: relative;
+    left: 500px;
+    top: 500px;
+}
+
+.uTube-icon {
+    position: relative;
+    left: 449px;
+    top: 501px;
+}
