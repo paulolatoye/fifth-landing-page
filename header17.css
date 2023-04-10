@@ -18,6 +18,7 @@ body{
     padding-left: 10px;
 }
 
+
 .navbar-light .navbar-brand {
     width: 106px;
     height: 32px;
@@ -182,7 +183,7 @@ body{
 
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     body {
         width: 720px;
@@ -265,7 +266,7 @@ body{
     }   
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     body {
         width: 375px;
@@ -277,8 +278,7 @@ body{
         max-width: 375px;
         margin-top: 20px;
         margin-left: 3px;
-        padding-right: 10px;
-        padding-left: 10px;
+        overflow: hidden;
     }
     
     br{
@@ -378,9 +378,5 @@ body{
         position: relative;
         left: 90px;
         top: 243px;
-    }
-
-
-    
+    }    
 }
-
